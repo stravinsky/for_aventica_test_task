@@ -1,0 +1,41 @@
+.app-draft-buffer-item {
+  background-color: #d8d8d8;
+  padding: 10px 10px;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.app-draft-buffer-item__remove-btn {
+  position: absolute;
+  bottom: -10px;
+  right: 74px;
+  background-color: red;
+  color: #fff;
+  padding: 4px 4px;
+  border: 1px solid gray;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.11;
+}
+
+.app-draft-buffer-item__save-btn {
+  position: absolute;
+  bottom: -10px;
+  right: 15px;
+  background-color: #71d534;
+  color: #fff;
+  padding: 4px 4px;
+  border: 1px solid gray;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.11;
+}
+
+.app-draft-buffer-item__title {
+  background-color: #d8d8d8;
+  font-size: 16px;
+  line-height: 1.11;
+  border: none;
+  color: #000;
+}

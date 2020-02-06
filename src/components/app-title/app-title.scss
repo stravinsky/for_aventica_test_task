@@ -1,0 +1,30 @@
+.app-title {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  background-color: #a2a0f3;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.app-title__name {
+  margin-left: auto;
+  color: #fff;
+  font-weight: 400;
+}
+
+.app-title__counter {
+  margin-left: auto;
+  font-size: 22px; 
+  background-color: lightgray;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 6px 10px;
+  box-sizing: border-box;
+}
+
+.app-title__brand-name {
+  color: #f3cbc9;
+  font-weight: 800;
+}

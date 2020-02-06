@@ -1,0 +1,33 @@
+.app-saved-item {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 10px;
+  background-color: #e7ddde;
+}
+
+.app-saved-item__indicator {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  &--done {
+    background-color: green;
+  }
+}
+
+
+
+.app-saved-item__title {
+  flex: 1 1 calc(100% - 20px);
+}
+
+.app-saved-item__btn {
+  padding: 15px 10px;
+  color: #fff;
+  border: 1px solid lightgray;
+  background-color: #b08f8a;
+  cursor: pointer;
+}
+
+.app-saved-item__btn--mark {
+  padding: 15px 20px;
+}

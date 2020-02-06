@@ -1,0 +1,19 @@
+.app-tasks-place-wrapper {
+  background-color: #a2a0f3;
+  padding: 10px 20px;
+}
+
+.app-tasks-place {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.app-tasks-place__item {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  flex-basis: calc(100% / 3 - 20px);
+}
+

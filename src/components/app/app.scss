@@ -1,0 +1,29 @@
+.app {
+  background-color: #ccf3ba;
+  display: grid;
+  grid-template-columns: 18% 1fr;
+  grid-template-rows: auto auto 1fr;
+  grid-gap: 10px;
+  padding: 10px 10px;
+}
+
+.app__title {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.app__add-task {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.app__tasks-place {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}

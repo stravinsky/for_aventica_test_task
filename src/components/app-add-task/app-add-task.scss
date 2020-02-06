@@ -1,0 +1,42 @@
+.app-addtask-wrapper {
+  background-color: #a2a0f3;
+  padding: 10px 15px;
+}
+
+.app-addtask {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.app-addtask__input {
+  flex: 1 1 100%;
+  margin-bottom: 10px;
+  height: 20px;
+  font-size: 14px;
+  line-height: 1.11;
+}
+
+.app-addtask__draft-btn {
+  padding: 5px 0;
+  background-color: #848388;
+  border: 2px solid gray;
+  color: #fff;
+  margin-right: 10px;
+  flex-grow: 1;
+  font-size: 14px;
+  line-height: 1.11;
+  cursor: pointer;
+}
+
+.app-addtask__save-btn {
+  flex-grow: 1;
+  padding: 5px 16px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.11;
+  background-color: #71d534;
+  border: 2px solid gray;
+  cursor: pointer;
+
+}
+
