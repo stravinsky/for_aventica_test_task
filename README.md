@@ -1,10 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Адаптив
 
-Медиа брейкпоинт для десктопа я определил как >1024px
-поведение шаблона в рамках от 1024px до плюс бесконечности без поломки верстки
-поэтому медиа запросов я не писал
 
 ## Available Scripts
 
